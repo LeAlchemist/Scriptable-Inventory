@@ -1,15 +1,14 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Items/Armor")]
 public class Armor : Item
 {
     Armor()
     {
-        itemTags = new ItemTypes[]
-        { ItemTypes.armor,
-        ItemTypes.equipable,
-        ItemTypes.body };
+        itemTags = new ItemTags[]
+        { ItemTags.armor,
+        ItemTags.equipable,
+        ItemTags.body };
     }
 
     public override void OnEquip()

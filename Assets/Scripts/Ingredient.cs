@@ -5,8 +5,8 @@ public class Ingredient : Item
 {
     Ingredient()
     {
-        itemTags = new ItemTypes[]
-        { ItemTypes.other};
+        itemTags = new ItemTags[]
+        { ItemTags.other};
     }
 
     public override void OnEquip()

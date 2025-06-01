@@ -5,10 +5,10 @@ public class Weapon : Item
 {
     Weapon()
     {
-        itemTags = new ItemTypes[]
-        { ItemTypes.weapon,
-        ItemTypes.equipable,
-        ItemTypes.hands };
+        itemTags = new ItemTags[]
+        { ItemTags.weapon,
+        ItemTags.equipable,
+        ItemTags.oneHand };
     }
 
     public override void OnEquip()

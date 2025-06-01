@@ -5,8 +5,8 @@ public class Consumable : Item
 {
     Consumable()
     {
-        itemTags = new ItemTypes[]
-        { ItemTypes.consumable };
+        itemTags = new ItemTags[]
+        { ItemTags.consumable };
     }
 
     public override void OnEquip()
