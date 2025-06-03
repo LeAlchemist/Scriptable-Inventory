@@ -1,6 +1,6 @@
-#+TITLE: Scriptable-Inventory
+# Scriptable Inventory
  
- [[./Resources/Menus.jpg]]
+![Example menus](./Resources/Menus.jpg)
  
  An inventory and item system writen to be used with Scriptable Objects for rapid creation and prototyping
 
