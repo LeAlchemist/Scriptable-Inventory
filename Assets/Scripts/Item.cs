@@ -4,11 +4,12 @@ using UnityEngine.UIElements;
 
 public abstract class Item : ScriptableObject
 {
-    public Image itemIcon;
+    public Texture2D itemIcon;
     public GameObject itemObject;
     public string itemName;
     public ItemTags[] itemTags;
     public Stats stats;
+    public string itemDescription;
 
     public abstract void OnUse();
 
